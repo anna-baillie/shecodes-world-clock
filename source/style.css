@@ -37,6 +37,19 @@ h2 {
   border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
 }
 
+.container a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(226, 181, 0);
+  transition: ease-in-out 250ms;
+}
+
+.container a:hover {
+  color: black;
+}
+
 .time {
   font-size: 36px;
   margin-top: 15px;
